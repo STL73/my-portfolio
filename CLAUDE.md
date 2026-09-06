@@ -6,7 +6,7 @@
 
 **Before doing anything in this project, read this page first:**
 
-- `C:\Users\slavi\Evolving Brain\Projects\Coding\Personal Portfolio.md`
+- `C:\Users\slavi\Evolving Brain\Projects\Coding\my-portfolio.md`
 
 It is a single dossier: **compiled truth** on top (current state, blockers, next action) and an
 **append-only timeline** underneath (dated history, every entry cited). Trust its compiled-truth
