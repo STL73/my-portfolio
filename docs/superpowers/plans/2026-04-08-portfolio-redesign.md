@@ -16,23 +16,23 @@
 
 ## File Map
 
-| File                                 | Action | Purpose                                           |
+| File | Action | Purpose |
 | ------------------------------------ | ------ | ------------------------------------------------- |
-| `index.html`                         | Modify | Add Syne font import                              |
-| `src/index.css`                      | Modify | Replace design tokens, update/add utility classes |
-| `src/App.jsx`                        | Modify | Fix section order (Education moves after Skills)  |
-| `src/components/Nav.jsx`             | Modify | New frosted-glass nav with "Hire Me" CTA          |
-| `src/sections/Hero.jsx`              | Modify | Centred layout with spinning avatar rings         |
-| `src/sections/About.jsx`             | Modify | Two-column photo + content layout                 |
-| `src/components/ProjectCard.jsx`     | Modify | Support `featured` prop for full-width layout     |
-| `src/sections/Projects.jsx`          | Modify | Featured card + 3-column grid                     |
-| `src/components/SkillCard.jsx`       | Modify | New category card with skill chips                |
-| `src/sections/Skills.jsx`            | Modify | 2×2 grid + CSS marquee strip                      |
-| `src/components/EduCard.jsx`         | Modify | Timeline card style                               |
-| `src/components/CertificateCard.jsx` | Modify | Compact cert card with hover lift                 |
-| `src/sections/Education.jsx`         | Modify | Vertical timeline + certs grid                    |
-| `src/sections/Contact.jsx`           | Modify | Two-column info + form, keep Formspree logic      |
-| `src/sections/Footer.jsx`            | Modify | Brand + flat nav + social + copyright             |
+| `index.html` | Modify | Add Syne font import |
+| `src/index.css` | Modify | Replace design tokens, update/add utility classes |
+| `src/App.jsx` | Modify | Fix section order (Education moves after Skills) |
+| `src/components/Nav.jsx` | Modify | New frosted-glass nav with "Hire Me" CTA |
+| `src/sections/Hero.jsx` | Modify | Centred layout with spinning avatar rings |
+| `src/sections/About.jsx` | Modify | Two-column photo + content layout |
+| `src/components/ProjectCard.jsx` | Modify | Support `featured` prop for full-width layout |
+| `src/sections/Projects.jsx` | Modify | Featured card + 3-column grid |
+| `src/components/SkillCard.jsx` | Modify | New category card with skill chips |
+| `src/sections/Skills.jsx` | Modify | 2×2 grid + CSS marquee strip |
+| `src/components/EduCard.jsx` | Modify | Timeline card style |
+| `src/components/CertificateCard.jsx` | Modify | Compact cert card with hover lift |
+| `src/sections/Education.jsx` | Modify | Vertical timeline + certs grid |
+| `src/sections/Contact.jsx` | Modify | Two-column info + form, keep Formspree logic |
+| `src/sections/Footer.jsx` | Modify | Brand + flat nav + social + copyright |
 
 ---
 
@@ -3068,21 +3068,21 @@ git commit -m "chore: final polish pass, build verified"
 
 **Spec coverage check:**
 
-| Spec section         | Covered by task                        |
+| Spec section | Covered by task |
 | -------------------- | -------------------------------------- |
-| Design tokens        | Task 1                                 |
-| Section order        | Task 2                                 |
-| Nav                  | Task 3                                 |
-| Hero                 | Task 4                                 |
-| About                | Task 5                                 |
-| Projects             | Task 6                                 |
-| Skills               | Task 7                                 |
-| Education            | Task 8                                 |
-| Contact              | Task 9                                 |
-| Footer               | Task 10                                |
-| Fonts                | Task 1 (index.html)                    |
-| Marquee              | Task 7 (index.css)                     |
-| Reduced motion       | Task 1 (index.css)                     |
+| Design tokens | Task 1 |
+| Section order | Task 2 |
+| Nav | Task 3 |
+| Hero | Task 4 |
+| About | Task 5 |
+| Projects | Task 6 |
+| Skills | Task 7 |
+| Education | Task 8 |
+| Contact | Task 9 |
+| Footer | Task 10 |
+| Fonts | Task 1 (index.html) |
+| Marquee | Task 7 (index.css) |
+| Reduced motion | Task 1 (index.css) |
 | Data layer unchanged | All tasks read from existing constants |
 
 **Type consistency:** All components use the same prop names as the existing constants data shape. `SkillCard` uses `title`/`description`/`skills` (matching existing `skillsData`). `EduCard` uses `period`/`title`/`institution`/`description` (matching existing `educationData`). `CertificateCard` uses `title`/`issuer`/`date`/`fileUrl` (matching existing `certificatesData`). `ProjectCard` adds `featured` prop with `false` default.

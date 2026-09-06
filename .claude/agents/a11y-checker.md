@@ -58,7 +58,7 @@ You audit the portfolio for WCAG 2.1 AA compliance. A portfolio visible to emplo
 
 ## Output Format
 
-```
+```text
 [CRITICAL/HIGH/MEDIUM/LOW] Component — Issue description
 WCAG: criterion reference (e.g. 1.4.3 Contrast)
 Fix: specific code change needed

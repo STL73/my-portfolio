@@ -21,6 +21,7 @@ npx playwright install chromium firefox webkit
 ```
 
 Add to `package.json` scripts:
+
 ```json
 "test:e2e": "playwright test",
 "test:e2e:ui": "playwright test --ui",
@@ -28,6 +29,7 @@ Add to `package.json` scripts:
 ```
 
 Create `playwright.config.js` at project root:
+
 ```js
 import { defineConfig, devices } from '@playwright/test';
 
@@ -55,6 +57,7 @@ export default defineConfig({
 ## Test File Location
 
 Place all tests in `tests/e2e/`. One file per feature area:
+
 - `tests/e2e/navigation.spec.js`
 - `tests/e2e/sections.spec.js`
 - `tests/e2e/contact.spec.js`
@@ -64,6 +67,7 @@ Place all tests in `tests/e2e/`. One file per feature area:
 ## Critical Test Flows to Cover
 
 ### Navigation
+
 - Desktop nav links scroll to correct sections
 - Mobile hamburger opens and closes
 - Mobile nav links navigate correctly and close the menu
@@ -71,21 +75,25 @@ Place all tests in `tests/e2e/`. One file per feature area:
 - Active nav item updates as user scrolls
 
 ### Section Visibility
+
 - All 7 sections render: Hero, About, Projects, Skills, Education, Contact, Footer
 - Hero heading is visible on load
 - Lazy-loaded sections become visible on scroll
 
 ### Contact
+
 - Contact section is reachable
 - Form fields are present and focusable
 - (If form is functional) Submission shows feedback
 
 ### Downloads
+
 - CV download link is present and has correct href
 - Certificate cards render with download links
 - Certificate PDF links resolve (no 404)
 
 ### Responsive
+
 - Test at 375px (mobile), 768px (tablet), 1440px (desktop)
 - No horizontal overflow at any breakpoint
 - Mobile nav is visible at 375px, desktop nav at 1440px

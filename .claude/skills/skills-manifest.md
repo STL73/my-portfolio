@@ -8,7 +8,7 @@ Skills are invoked via the Skill tool: e.g. `/frontend-patterns` or `/seo`.
 ## Active Now
 
 | Skill | Invoke When |
-|-------|------------|
+| ------- | ------------ |
 | `frontend-patterns` | Writing new components, reviewing composition, unsure about React patterns |
 | `seo` | Adding/updating meta tags, og: tags, structured data, before any deployment |
 | `ui-ux-pro-max` | Design quality check before any section is marked done — catches template-looking UI |
@@ -21,7 +21,7 @@ Skills are invoked via the Skill tool: e.g. `/frontend-patterns` or `/seo`.
 ## When Testing Is Added
 
 | Skill | Invoke When |
-|-------|------------|
+| ------- | ------------ |
 | `tdd-workflow` | Writing new utility functions or custom hooks — write tests first |
 | `e2e-testing` | Setting up or extending Playwright E2E flows (nav, contact form, downloads, responsive) |
 | `test-coverage` | Checking coverage thresholds — target is 80% minimum |
@@ -31,7 +31,7 @@ Skills are invoked via the Skill tool: e.g. `/frontend-patterns` or `/seo`.
 ## When Deployment Is Decided
 
 | Skill | Invoke When |
-|-------|------------|
+| ------- | ------------ |
 | `deployment-patterns` | Changing how the site builds or ships. Current pipeline is push to `main` → Cloudflare Workers Builds → the `spireforge` Worker |
 
 ---

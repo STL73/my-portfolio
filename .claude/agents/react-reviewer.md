@@ -26,6 +26,7 @@ You are a code reviewer specialising in React 19 + Vite + Tailwind CSS v4. You k
 ## Review Checklist
 
 For each file reviewed:
+
 - [ ] File location is correct (section vs component vs constant)
 - [ ] No TypeScript syntax or file extensions
 - [ ] No inline hardcoded data — all data from `/src/constants`

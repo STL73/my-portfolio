@@ -34,15 +34,15 @@
 
 ## 2. Section Order & Themes
 
-| #   | Section   | Theme | Notes                            |
+| # | Section | Theme | Notes |
 | --- | --------- | ----- | -------------------------------- |
-| 1   | Hero      | dark  | Centred layout                   |
-| 2   | About     | dark  | Two-column                       |
-| 3   | Projects  | dark  | Featured + grid                  |
-| 4   | Skills    | dark  | 2×2 category grid + marquee      |
-| 5   | Education | dark  | Timeline + certs grid            |
-| 6   | Contact   | dark  | Two-column info + form           |
-| 7   | Footer    | dark  | Brand + nav + social + copyright |
+| 1 | Hero | dark | Centred layout |
+| 2 | About | dark | Two-column |
+| 3 | Projects | dark | Featured + grid |
+| 4 | Skills | dark | 2×2 category grid + marquee |
+| 5 | Education | dark | Timeline + certs grid |
+| 6 | Contact | dark | Two-column info + form |
+| 7 | Footer | dark | Brand + nav + social + copyright |
 
 All sections use the same dark theme throughout (no alternating light sections).
 
@@ -114,12 +114,12 @@ Data from `src/constants/index.js` — update project entries there.
 
 **Category grid** (`repeat(2, 1fr)`, gap 24px) — 4 cards:
 
-| Card     | Icon | Skills                                                                    |
+| Card | Icon | Skills |
 | -------- | ---- | ------------------------------------------------------------------------- |
-| Frontend | ⚡   | React, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, GSAP, Vite      |
-| Design   | 🎨   | Figma, Responsive Design, Design Systems, Accessibility, UI/UX Principles |
-| Delivery | 🚀   | Git, GitHub, npm/Vite, REST APIs, Agile, VS Code                          |
-| Backend  | 🗄️   | Node.js, Express, PHP, SQL, MongoDB, REST APIs, XAMPP                     |
+| Frontend | ⚡ | React, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, GSAP, Vite |
+| Design | 🎨 | Figma, Responsive Design, Design Systems, Accessibility, UI/UX Principles |
+| Delivery | 🚀 | Git, GitHub, npm/Vite, REST APIs, Agile, VS Code |
+| Backend | 🗄️ | Node.js, Express, PHP, SQL, MongoDB, REST APIs, XAMPP |
 
 Each card: `#0f172a` bg, indigo top-line gradient, category icon in indigo-tinted box, skill chips (`#0d1829` bg, `#1e293b` border, `#94a3b8` text, indigo dot).
 

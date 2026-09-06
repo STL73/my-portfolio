@@ -39,7 +39,7 @@ When reviewing new GSAP code:
 ## Common Failure Patterns
 
 | Symptom | Likely Cause |
-|---------|-------------|
+| --------- | ------------- |
 | Animation fires once then breaks on re-render | Missing cleanup / kill in useEffect return |
 | Scroll trigger fires at wrong position | Layout shift after ScrollTrigger init — need `ScrollTrigger.refresh()` |
 | Elements jump on page load | Missing `gsap.set()` for initial state before timeline plays |

@@ -46,7 +46,7 @@ explicitly, with `.sf-light` or `[data-sf-face="light"]`, for documents and prin
 ### Tokens
 
 | Token | Hex | On night-800 | Use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `night-900` | `#0A0619` | — | Page edges, modal overlays |
 | `night-800` | `#100A28` | — | **Canonical ground** |
 | `night-700` | `#1B1240` | — | Raised surface — cards, panels, code |
@@ -99,7 +99,7 @@ the printer.
 All values in a `100 × 100` viewBox.
 
 | Element | Geometry | Stroke | Ink |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Chevron | `M22 74 L50 48 L78 74` | 11, round cap + join | `text-hi` |
 | Tip | `M34.03 56 L50 70.8 L65.97 56` | 9, round cap + join | `aurora-500` |
 | Spark | 3-point concave, R 13, pinch 0, centre (50,31) | filled | `aurora-500` |
@@ -145,7 +145,7 @@ second shape behind the chevron, which is a different and worse mark.
 ### Variants
 
 | Variant | File | When |
-|---|---|---|
+| --- | --- | --- |
 | Two-colour, dark | `icon-dark_2026-08-20_v1.svg` | Default, on night grounds |
 | Two-colour, light | `icon-light_2026-08-20_v1.svg` | Paper, print, documents |
 | **Single ink** | `icon-mono_2026-08-20_v1.svg` | **The definitive form** |
@@ -191,7 +191,7 @@ system tray. It stays in the kit for those.
 Both tiles are Night `#100A28` at corner radius 22, and they differ only in which mark they carry.
 
 | Tile | Mark | Rasterises to |
-|---|---|---|
+| --- | --- | --- |
 | `favicon_2026-08-20_v1.svg` | Full, 84% of tile | `favicon.ico` (16/24/32/48) |
 | `icon-tile-dark_2026-08-20_v1.svg` | Full | `app-icon_*` (96–1024), `social-avatar_*` (200–800), `youtube-watermark_150x150` |
 
@@ -215,7 +215,7 @@ The channel watermark overlays every video, bottom-right, on footage nobody cont
 against dark, light, green and busy mid-tone frames:
 
 | Treatment | Dark | Light | Green | Busy | **Worst** |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | Bare two-colour mark | 14.14:1 | 1.13:1 | 3.28:1 | 3.25:1 | **1.13:1** |
 | Single ink, transparent | 15.16:1 | 1.05:1 | 3.52:1 | 3.48:1 | **1.05:1** |
 | Mark on 70% tile | 14.74:1 | 5.40:1 | 10.14:1 | 9.91:1 | **5.40:1** |
@@ -253,7 +253,7 @@ neither solves light footage anyway.
 ## 4 · Typography
 
 | Role | Face | Weight | Tracking |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Display | **Fraunces** | 600 | `0.01em` |
 | Body & UI | **Inter Tight** | 400–600 | normal |
 | Code & data | **IBM Plex Mono** | 400–500 | `0.05em` |
@@ -291,7 +291,7 @@ Fluid, `clamp()`-based, in `tokens.css`. Running text sits at `--sf-measure: 64c
 Two layers. They do different jobs and they do **not** travel together.
 
 | Layer | What it is | Dark face | Light face |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Ember scatter** | The spark alone, repeated at five sizes on a 240px tile, irregularly placed | `aurora-500` at **7%** | `aurora-800` at **14%**, or **18%** on card backs and covers |
 | **Aurora wash** | Two radial gradients — green top-left, violet bottom-right | 15% / 14% | **Screen only. Never printed.** |
 

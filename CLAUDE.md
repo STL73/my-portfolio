@@ -6,7 +6,7 @@
 
 **Before doing anything in this project, read this page first:**
 
-- `C:\Users\slavi\Evolving Brain\Projects\Coding Projects\Personal Portfolio.md`
+- `C:\Users\slavi\Evolving Brain\Projects\Coding\Personal Portfolio.md`
 
 It is a single dossier: **compiled truth** on top (current state, blockers, next action) and an
 **append-only timeline** underneath (dated history, every entry cited). Trust its compiled-truth
@@ -79,7 +79,7 @@ across, never hand-edit them here. Nothing of the STL Media identity remains.
 ## Build Commands
 
 | Command | Purpose |
-|---|---|
+| --- | --- |
 | `npm run dev` | Start dev server (Vite HMR) |
 | `npm run build` | Production build to `/dist` |
 | `npm run preview` | Preview production build locally |
@@ -104,7 +104,7 @@ Project-local rules (extend the global rules — read these for React/Tailwind/G
 Custom agents in `.claude/agents/` — invoke by asking Claude to use them:
 
 | Agent | When to Use |
-|-------|------------|
+| ------- | ------------ |
 | `react-reviewer` | After writing or modifying any component or section |
 | `gsap-specialist` | After any layout change to Hero.jsx, or when debugging animations |
 | `seo-auditor` | Before deployment, or after changes to index.html meta/schema |
@@ -125,7 +125,7 @@ See [.claude/skills-manifest.md](.claude/skills-manifest.md) for the full list o
 Connected at account level — no `.mcp.json` config needed:
 
 | Integration | When to Use |
-|-------------|------------|
+| ------------- | ------------ |
 | **Figma** | Pull design mockups directly into component code |
 | **21st Magic** | Generate React UI components from a prompt |
 | **Context7** | Live docs for React 19, GSAP 3, Tailwind v4 — **avoids outdated API usage from training data** |

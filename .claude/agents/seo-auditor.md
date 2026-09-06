@@ -12,6 +12,7 @@ You audit the portfolio for search engine discoverability. The goal is for emplo
 ### 1. Meta Tags (index.html)
 
 Check for:
+
 - `<title>` — specific, under 60 chars, includes name + role (e.g. "Slav Lambov — Frontend Developer")
 - `<meta name="description">` — 120–160 chars, includes location, skills, target audience
 - `<meta name="keywords">` — optional but check if present and relevant
@@ -22,6 +23,7 @@ Check for:
 ### 2. Open Graph Tags
 
 Check for:
+
 - `og:title`, `og:description`, `og:image`, `og:url`, `og:type`
 - `og:image` should be at least 1200×630px
 - `twitter:card`, `twitter:title`, `twitter:description`, `twitter:image`
@@ -29,6 +31,7 @@ Check for:
 ### 3. Structured Data (schema.org)
 
 Check for:
+
 - `Person` schema with: name, jobTitle, url, sameAs (LinkedIn, GitHub)
 - `WebSite` schema with: name, url, description
 - Valid JSON-LD format in `<script type="application/ld+json">` tag
@@ -37,6 +40,7 @@ Check for:
 ### 4. Core Web Vitals Signals
 
 Flag potential issues:
+
 - Hero image missing explicit dimensions (CLS risk)
 - Render-blocking resources in `<head>`
 - No `font-display: swap` on web fonts
@@ -46,6 +50,7 @@ Flag potential issues:
 ### 5. Crawlability
 
 Check for:
+
 - `robots.txt` in `/public` — should allow all crawlers
 - `sitemap.xml` in `/public` — optional but recommended
 - SPA deep links resolve. There is **no `404.html`** and there should not be: the Worker's
@@ -64,7 +69,8 @@ Check for:
 ## Output Format
 
 For each issue found:
-```
+
+```text
 [CRITICAL/HIGH/MEDIUM/LOW] Area — Description
 Fix: specific action to take
 ```
