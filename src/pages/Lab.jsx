@@ -1743,7 +1743,7 @@ const LOGO_ONLY_TIERS = [
   {
     id: "working",
     label: "Working in",
-    note: "Used on the projects above, still building fluency",
+    note: "Used on the projects above, with PostgreSQL next up — still building fluency",
     items: ["React", "Vite", "Node.js", "Express", "MongoDB", "PostgreSQL", "Git", "GitHub", "GSAP"],
   },
   {
